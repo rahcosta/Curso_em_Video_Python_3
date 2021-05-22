@@ -3,7 +3,7 @@ num = [] ou
 num = list()
 
 num = (2, 5, 9, 1) Tupla
- num[2] = 3 Tupla é imutável'''
+num[2] = 3 Tupla é imutável'''
 
 num = [2, 5, 9, 1]
 print(num)
