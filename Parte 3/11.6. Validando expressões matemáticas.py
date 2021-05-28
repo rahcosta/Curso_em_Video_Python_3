@@ -6,10 +6,10 @@ text = input('Digite sua expressão: ').strip()
 
 pilha = []
 
-for simb in text:
-    if simb == '(':
+for simbolo in text:
+    if simbolo == '(':
         pilha.append('(')
-    elif simb == ')':
+    elif simbolo == ')':
         if len(pilha) > 0: # se a pilha já estiver preenchida coms os '(', eu removo e coloco ')'.
             pilha.pop() # remove o último elemento da lista
         else:
